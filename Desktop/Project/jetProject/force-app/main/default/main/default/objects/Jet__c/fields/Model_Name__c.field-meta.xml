@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Model_Name__c</fullName>
+    <externalId>false</externalId>
+    <label>Model Name</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Falcon</fullName>
+                <default>false</default>
+                <label>Falcon</label>
+            </value>
+            <value>
+                <fullName>Gerder</fullName>
+                <default>false</default>
+                <label>Gerder</label>
+            </value>
+            <value>
+                <fullName>Haldir</fullName>
+                <default>false</default>
+                <label>Haldir</label>
+            </value>
+            <value>
+                <fullName>Cheroki</fullName>
+                <default>false</default>
+                <label>Cheroki</label>
+            </value>
+            <value>
+                <fullName>Carl</fullName>
+                <default>false</default>
+                <label>Carl</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
